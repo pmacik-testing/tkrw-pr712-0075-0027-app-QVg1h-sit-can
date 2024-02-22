@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rhvi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0027-tenant/tkrw-pr712-0075-0027-app/devfile-sample-rhvi@sha256:f43722fb28ddd4026e8a80480667a8f6dfb5795b969b2dedff5533015749c889
         name: my-nodejs
         ports:
         - containerPort: 3001
